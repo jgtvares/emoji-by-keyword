@@ -1,6 +1,28 @@
 {
-  "dependencies": {
-    "emojis-keywords": "^2.0.0",
-    "emojis-list": "^3.0.0"
-  }
+  "name": "@jgtvares/emoji-by-keyword",
+  "description": "Render an emoji by it's keyword",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgtvares/emoji-by-keyword.git"
+  },
+  "keywords": [
+    "emojis",
+    "keywords",
+    "emoji-list"
+  ],
+  "author": "@jgtvares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgtvares/emoji-by-keyword/issues"
+  },
+  "homepage": "https://github.com/jgtvares/emoji-by-keyword#readme"
 }

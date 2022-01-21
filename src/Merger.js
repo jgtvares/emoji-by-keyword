@@ -1,7 +1,6 @@
-const emojis = require('emojis-list');
-const keywords = require('emojis-keywords');
+const emojis = require('./lists/Emojis');
+const keywords = require('./lists/Keywords');
 const fs = require('fs');
-const { indexOf } = require('emojis-list');
 
 
 function Merge() {
@@ -21,9 +20,7 @@ function Merge() {
 function MergeAndSearchByKeyword(keyword) {
     const keywordIndex = keywords.indexOf(keyword);
     if (keywordIndex !== -1) {
-        console.log('Keyword index:', keywordIndex);
         const emoji = emojis[keywordIndex];
-        console.log('Emoji index:', emojis.indexOf(emoji));
         return {
             emoji,
             keyword

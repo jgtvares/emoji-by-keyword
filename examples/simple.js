@@ -1,5 +1,5 @@
 const { GetEmojiByKeyword } = require("../src/GetEmoji");
 
-const emoji = GetEmojiByKeyword(':grin:');
+const emoji = GetEmojiByKeyword(':joy:');
 
 console.log(emoji);
